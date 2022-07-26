@@ -1,0 +1,21 @@
+p{
+    color: red;
+    font-family: Arial;
+}
+.serieclase{
+    font-family: Georgia;
+    text-decoration: underline;
+}
+
+.peliclase{
+
+}
+#caja{
+    color: beige;
+    background-color: rebeccapurple;
+    width: 200px;
+    padding: 10px;
+}
+#caja h3 {
+    color: coral;
+}
