@@ -1,0 +1,44 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+.caja {
+    width: 300px;
+    height: 300px;
+    background: #00a2ff;
+    background: linear-gradient(90deg, #00a2ff 0%, #4300ff 80%);
+    background: -webkit-linear-gradient(90deg, #00a2ff 0%, #4300ff 80%);
+    background: -moz-linear-gradient(90deg, #00a2ff 0%, #4300ff 80%);
+    /*box-shadow: 10px 20px 10px rgb(36, 27, 27);*/
+    /* eje x, eje y, espesor, color*/
+    box-shadow: -2px 20px 45px -26px rgba(13, 16, 82, 0.76);
+    padding: 20px;
+    box-sizing: border-box;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 20px 0;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.texto {
+    background-color: yellow;
+    padding: 10px;
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 2px solid black;
+}
+
+.texto p {
+    font-family: arial;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    color: red;
+    font-size: 50px;
+}
